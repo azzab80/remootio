@@ -20,7 +20,7 @@ from .utils import create_client
 
 _LOGGER = logging.getLogger(__name__)
 
-PLATFORMS = [Platform.COVER]
+PLATFORMS = [Platform.BINARY_SENSOR, Platform.COVER]
 
 
 async def async_setup_entry(hass: HomeAssistant, entry: ConfigEntry) -> bool:
